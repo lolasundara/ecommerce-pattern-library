@@ -1,9 +1,9 @@
 :root {
-  --color-primary: ;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
+  --color-primary: #4b7d9A ;
+  --color-primary-light: #f4efe9;
+  --color-secondary: #9ba485;
+  --color-accent: #697254;
+  --color-neutral-beige: #b5a79e;
   --color-whatever: peachpuff;
 
   --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
