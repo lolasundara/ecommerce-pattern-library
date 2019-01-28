@@ -1,12 +1,12 @@
 :root {
-  --color-primary: #4b7d9A ;
+  --color-primary: #4b7d9a;
   --color-primary-light: #f4efe9;
   --color-secondary: #9ba485;
   --color-accent: #697254;
   --color-neutral-beige: #b5a79e;
   --color-whatever: peachpuff;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
+  --font-primary: "Oswald, sans-serif", PT Sans, sans-serif;
   --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
 }
 
