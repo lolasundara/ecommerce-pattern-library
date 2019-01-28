@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #4b7d9a;
-  --color-primary-light: #f4efe9;
-  --color-secondary: #9ba485;
-  --color-accent: #697254;
-  --color-neutral-beige: #b5a79e;
-  --color-whatever: #000;
+  --color-primary: #487159;
+  --color-primary-light: #e2d7c3;
+  --color-secondary: #bb865e;
+  --color-accent: #de8975;
+  --color-neutral-beige: #e5e5e5;
+  --color-whatever: #aa443a;
 
   --font-primary: "Oswald, sans-serif", PT Sans, sans-serif;
   --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
