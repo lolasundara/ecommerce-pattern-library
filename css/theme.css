@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #487159;
-  --color-primary-light: #e2d7c3;
-  --color-secondary: #bb865e;
-  --color-accent: #de8975;
-  --color-neutral-beige: #e5e5e5;
-  --color-whatever: #aa443a;
+  --color-primary: #608b74;
+  --color-primary-light: #e5e5e5;
+  --color-secondary: #ab995b;
+  --color-accent: #f25635;
+  --color-neutral-beige: #eed0b8;
+  --color-whatever: #86adad;
 
   --font-primary: "Oswald, sans-serif", PT Sans, sans-serif;
   --font-secondary: "PT Sans", sans-serif;
@@ -12,4 +12,79 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  color: var(--color-whatever);
+  padding-bottom: .75em;
+}
+
+p {
+  font-family: var(--font-secondary);
+  color: #000000;
+  font-weight: normal;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+em {
+  font-color: #000000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul {
+  font-family: var(--font-secondary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol {
+  font-family: var(--font-secondary);
+  color: var(--color-whatever);
+  font-weight: normal;
+  font-style: normal;
+}
+
+dl {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+  color:inherit: var(--color-primary);
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+strong, b {
+  color: #000000;
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+  color: #000000;
+}
+
+abbr {
+  font-family: var(--font-primary);
+  font-weight: lighter;
+}
+
+ins {
+  font-family: var(--font-secondary);
+  font-weight: normal;
 }
