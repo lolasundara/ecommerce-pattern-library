@@ -3,7 +3,7 @@
   --color-primary-light: #e5e5e5;
   --color-secondary: #ab995b;
   --color-accent: #f25635;
-  --color-neutral-beige: #eed0b8;
+  --color-neutral-beige: #ffecdd;
   --color-whatever: #86adad;
 
   --font-primary: "Oswald, sans-serif", PT Sans, sans-serif;
@@ -85,4 +85,15 @@ abbr {
 ins {
   font-family: var(--font-secondary);
   font-weight: normal;
+}
+
+a {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-whatever);
+  color: #fff;
 }
