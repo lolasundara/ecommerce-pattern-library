@@ -11,10 +11,10 @@ patternbot:
       brand.colors: "#fff"
   rationales:
     typefaces.primary: |
-      The primary typeface is mainly for the use of headings and more prominent statements or parts of text that should be emphasized in hierarchy.
+      The primary typeface is mainly for the use of headings and more prominent statements or parts of text that should be emphasized in hierarchy. This should be used for more prominent statements as well.
     typefaces.secondary: |
-      The secondary font is used for the body copy and more subtle statements on the website. For example: small descriptions, information, etc.
+      The secondary font is used for the body copy and more subtle statements on the website. For example: small descriptions, information, etc. It can also bbe used for the details on cards, lists, navigations.
     colors.primary: |
-      The primary colour is meant to be used for the main sections and subheadings of content, in order to implement the brand and it's identity. This should be displayed throughout the website as a unified whole.
+      The primary colour is meant to be used for the main sections and subheadings of content, in order to implement the brand and it's identity. This should be displayed throughout the website as a unified whole. It should also be used to contrast against the accent, neutral beige, and primary light colors.
     colors.secondary: |
       The secondary colour is used as a back drop for sub-sections in the website in order to tie together the look and feel of the brand.
