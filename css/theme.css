@@ -115,3 +115,8 @@ mark {
   display: inline-block;
   color: #fff;
 }
+
+.form {
+  border: none;
+  border-radius: 3px;
+}
