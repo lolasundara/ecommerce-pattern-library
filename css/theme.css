@@ -90,10 +90,21 @@ ins {
 a {
   font-family: var(--font-secondary);
   font-weight: normal;
-  color: var(--color-primary);
+  color: var(--color-accent);
 }
 
 mark {
   background-color: var(--color-whatever);
   color: #fff;
+}
+
+.pic {
+  width: 90%;
+  height: 90%;
+  margin-left: 1em;
+}
+
+.move:hover {
+  animation: move 1s linear;
+  filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .5));
 }
