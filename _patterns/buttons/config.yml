@@ -1,0 +1,23 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to overuse buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
+    width: "12em"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    bacground: "--color-primary-light"
+  dark:
+    title: "Dark"
+    description: |
+      The dark buttons should be used in contrast to light backgrounds when needed to specifically stand out.
+  light:
+    title: "Light"
+    description: |
+      The light button should be used in contrast to darker background in order for it to be easily seen. It will be used against darker pages or cards.
