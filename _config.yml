@@ -18,3 +18,6 @@ patternbot:
       Colour is the The primary colour is meant to be used for the main sections and subheadings of content, in order to implement the brand and it's identity.
     colors.secondary: |
       The secondary colour is used as a back drop for sub-sections in the website in order to tie together the look and feel of the brand.
+    layouts:
+      default: |
+        The default layout should be for almost every page, it includes the website's primary header and footer.
