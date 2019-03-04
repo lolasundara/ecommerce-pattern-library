@@ -21,3 +21,7 @@ patternbot:
     layouts:
       default: |
         The default layout should be for almost every page, it includes the website's primary header and footer.
+      header: |
+        The header will appear on each page of the website in order to remain cohesive and accessible of each section for the user. It contains the navigation (home,products,checkout,etc).
+      footer: |
+        The footer is similar to the header, where it should appear on every page of the website. It is found at the bottom of the page and lists off the subcategories of the website's sections. This is also where to sign up for newsletters and discover more options.

@@ -12,6 +12,7 @@
 
 html {
   font-family: var(--font-primary);
+  color: #fff;
 }
 
 h1 {
@@ -28,13 +29,13 @@ h2, h3, h4, h5, h6 {
 
 p {
   font-family: var(--font-secondary);
-  color: #000000;
+  color: #fff;
   font-weight: normal;
   padding-bottom: .5em;
 }
 
 em {
-  font-color: #000000;
+  font-color: #fff;
   font-weight: normal;
   font-style: normal;
 }
@@ -119,4 +120,53 @@ mark {
 .form {
   border: none;
   border-radius: 3px;
+}
+
+li {
+  display: inline-block;
+  color: #fff;
+}
+
+li:hover a {
+  color: #fff;
+  background-color: #909090;
+  border-radius: 3px;
+}
+
+li:hover {
+  background-color: #909090;
+  border-radius: 3px;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.masthead {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+  .name {
+    font-family: Merriweather, serif;
+  }
+
+.nav {
+  position: relative;
+  background-color: var(--color-secondary);
+  z-index: 2;
+  top: 100%;
+  right: 0;
+}
+
+.nav a {
+  background-color: var(--color-secondary);
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+}
+
+.end {
+  background-color: var(--color-secondary);
 }
