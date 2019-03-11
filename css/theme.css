@@ -118,8 +118,8 @@ mark {
 }
 
 .form {
-  border: none;
   border-radius: 3px;
+  border-color: var(--color-primary);
 }
 
 li {
