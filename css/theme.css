@@ -144,7 +144,7 @@ a {
 }
 
 .masthead {
-  background-color: var(--color-secondary);
+  background-color: var(--color-whatever);
   color: #fff;
 }
 
@@ -154,19 +154,19 @@ a {
 
 .nav {
   position: relative;
-  background-color: var(--color-secondary);
+  background-color: var(--color-whatever);
   z-index: 2;
   top: 100%;
   right: 0;
 }
 
 .nav a {
-  background-color: var(--color-secondary);
+  background-color: var(--color-whatever);
   text-decoration: none;
   display: block;
   padding: .5em;
 }
 
 .end {
-  background-color: var(--color-secondary);
+  background-color: var(--color-whatever);
 }
