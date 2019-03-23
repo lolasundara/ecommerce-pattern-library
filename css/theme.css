@@ -1,10 +1,12 @@
 :root {
-  --color-primary: #608b74;
-  --color-primary-light: #e5e5e5;
-  --color-secondary: #ab995b;
-  --color-accent: #f25635;
-  --color-neutral-beige: #ffecdd;
-  --color-whatever: #86adad;
+  --color-primary: #86cbd8;
+  --color-primary-light: #f4f9fB;
+  --color-secondary: #f2ee85;
+  --color-accent: #f26d44;
+  --color-dark: #263b58;
+  --color-whatever: #467495;
+  --color-neutral: #ddab86;
+  --color-neutral-light: #f5edd9;
 
   --font-primary: "Oswald, sans-serif", PT Sans, sans-serif;
   --font-secondary: "PT Sans", sans-serif;
@@ -69,13 +71,13 @@ blockquote {
 }
 
 strong, b {
-  color: #000000;
+  color: var(--color-dark);
   font-weight: bold;
 }
 
 i {
   font-style: italic;
-  color: #000000;
+  color: var(--color-dark);
 }
 
 abbr {
