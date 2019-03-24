@@ -10,10 +10,10 @@
   color: #fff;
 }
 
-.btn-ghost {
-  background-color: transparent;
-  color: var(--color-secondary);
-  border-color: var(--secondary);
+.btn-add {
+  background-color: var(--color-secondary-cold);
+  color: var(--color-secondary-cold);
+  border-color: var(--color-secondary);
 }
 
 .btn-ghost:hover {
