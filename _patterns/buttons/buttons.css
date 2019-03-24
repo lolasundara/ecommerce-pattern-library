@@ -10,7 +10,7 @@
   color: #fff;
 }
 
-.btn-add {
+.btn-ghost {
   background-color: var(--color-secondary-cold);
   color: var(--color-secondary-cold);
   border-color: var(--color-secondary);
