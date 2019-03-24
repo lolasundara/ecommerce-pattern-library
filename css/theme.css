@@ -194,3 +194,11 @@ a {
 .orange-type {
   color: var(--color-accent);
 }
+
+.white-type {
+  color: #fff;
+}
+
+.blue-back {
+  background-color: var(--color-secondary-cold);
+}
