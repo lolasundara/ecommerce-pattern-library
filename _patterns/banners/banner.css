@@ -1,9 +1,5 @@
 .picture {
-  width: 50%;
-  position: absolute;
-  right: -4em;
-  bottom: 21.25em;
-  z-index: 3;
+  width: 100%;
 }
 
 .background {

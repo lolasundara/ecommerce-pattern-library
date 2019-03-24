@@ -151,8 +151,15 @@ a {
 
 .nav {
   background-color: var(--color-primary);
-  text-align: right;
   padding-top: 1em;
+}
+
+@media only screen and (min-width: 68em) {
+
+  .nav {
+    text-align: right;
+  }
+
 }
 
 .nav a {
