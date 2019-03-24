@@ -9,8 +9,8 @@
   --color-neutral: #ddab86;
   --color-neutral-light: #f5edd9;
 
-  --font-primary: "Oswald, sans-serif", PT Sans, sans-serif;
-  --font-secondary: "PT Sans", sans-serif;
+  --font-primary: "Oswald", sans-serif;
+  --font-secondary: "Oswald", sans-serif;
 }
 
 html {
@@ -147,29 +147,29 @@ a {
 }
 
 .masthead {
-  background-color: var(--color-whatever);
+  background-color: var(--color-primary);
   color: #fff;
 }
 
   .name {
-    font-family: Merriweather, serif;
+    font-family: 'Oswald', sans-serif;
   }
 
 .nav {
   position: relative;
-  background-color: var(--color-whatever);
+  background-color: var(--color-primary);
   z-index: 2;
   top: 100%;
   right: 0;
 }
 
 .nav a {
-  background-color: var(--color-whatever);
+  background-color: var(--color-primary);
   text-decoration: none;
   display: block;
   padding: .5em;
 }
 
 .end {
-  background-color: var(--color-whatever);
+  background-color: var(--color-primary);
 }
