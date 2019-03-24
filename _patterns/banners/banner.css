@@ -1,0 +1,20 @@
+.picture {
+  width: 50%;
+  position: absolute;
+  right: -4em;
+  bottom: 21.25em;
+  z-index: 3;
+}
+
+.background {
+  padding-right: 15em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .picture {
+    width: 90%;
+    right: 5em;
+  }
+
+}
