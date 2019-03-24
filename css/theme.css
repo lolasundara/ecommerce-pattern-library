@@ -94,7 +94,7 @@ ins {
 a {
   font-family: var(--font-secondary);
   font-weight: normal;
-  color: var(--color-accent);
+  color: #fff;
 }
 
 mark {
@@ -132,18 +132,19 @@ li {
 
 li:hover a {
   color: #fff;
-  background-color: #909090;
+  background-color: var(--color-secondary-cold);
   border-radius: 3px;
 }
 
 li:hover {
-  background-color: #909090;
+  background-color: var(--color-secondary-cold);
   border-radius: 3px;
 }
 
 a {
   text-decoration: none;
-  list-style-type: none;
+  list-style-type: none;b
+  color: #fff;
 }
 
 .masthead {
