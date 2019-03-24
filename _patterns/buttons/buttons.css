@@ -23,14 +23,7 @@
   border-color: var(--color-secondary);
 }
 
-.btn-light {
-  background-color: var(--color-whatever);
-  border-color: var(--color-whatever);
-  color: #ffffff;
-}
-
-.btn-dark {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: #ffffff;
+.btn-add-to {
+  background-color: var(--color-secondary-cold);
+  border-color: var(--color-secondary-cold);
 }
