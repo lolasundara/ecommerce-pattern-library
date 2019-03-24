@@ -173,3 +173,15 @@ a {
 .end {
   background-color: var(--color-primary);
 }
+
+.subscribe {
+  background-color: var(--color-secondary);
+}
+
+.dark-type {
+  color: var(--color-dark);
+}
+
+.input {
+  border: none;
+}
