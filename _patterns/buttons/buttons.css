@@ -11,19 +11,26 @@
 }
 
 .btn-ghost {
-  background-color: var(--color-secondary-cold);
-  color: var(--color-secondary-cold);
-  border-color: var(--color-secondary);
+  background-color: transparent;
+  color: var(--color-dark);
+  border-color: var(--color-dark);
 }
 
 .btn-ghost:hover {
-  color: var(--color-secondary);
-  background-color: var(--color-secondary);
+  color: var(--color-dark;
+  background-color: var(--color-dark);
   color: #ffffff;
-  border-color: var(--color-secondary);
+  border-color: var(--color-dark);
 }
 
-.btn-add-to {
-  background-color: var(--color-secondary-cold);
-  border-color: var(--color-secondary-cold);
+.btn-light {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary;
+  color: #ffffff;
+}
+
+.btn-dark {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #ffffff;
 }
