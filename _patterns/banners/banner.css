@@ -53,7 +53,7 @@
   .hiding {
     visibility: visible;
     position: absolute;
-    left: -10em;
+    right: 1em;
   }
 
   .banner-type {

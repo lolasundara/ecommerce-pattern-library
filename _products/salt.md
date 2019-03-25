@@ -1,7 +1,7 @@
 ---
 name: "Salt"
-image: "/images/kale-crisps.jpg"
+image: "/images/salt.png"
 title: "Himalayan Salt"
-details: "Crushed Organic Himalayan Salt."
-price: 3.75
+details: "Crushed Organic Himalayan Salt For Cooking."
+price: $4
 ---
