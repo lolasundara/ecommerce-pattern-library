@@ -2,10 +2,39 @@
   width: 100%;
 }
 
+.prod-banner {
+  background-color: var(--color-secondary-cold);
+  width: 100%;
+}
+
+.kale {
+  width: 65%;
+  transform: rotate(90deg);
+  margin-left: 3.5em;
+}
+
+.banner-type {
+  padding-top: 2em;
+}
+
 @media only screen and (min-width: 25em) {
 
-  .picture {
-    right: 5em;
+  .kale {
+  width: 30%;
+  margin-left: 5em;
+  position: relative;
+  }
+
+  .banner-type {
+    text-align: left;
+    position: absolute;
+    max-width: 40%;
+    left: 18em;
+    top: 13.5em;
+  }
+
+  .hiding {
+    visibility: hidden;
   }
 
 }
@@ -14,18 +43,25 @@
 
   .picture {
     width: 50%;
-    margin-left: 1em;
+    margin-left: 3em;
   }
 
   .snacks {
     position: absolute;
   }
 
+  .hiding {
+    visibility: visible;
+    position: absolute;
+    left: -10em;
+  }
+
   .banner-type {
-    text-align: left;
     font-size: 70%;
-    max-width: 80%;
-    padding-top: 3.5em;
+    max-width: 50%;
+    margin-left: 2em;
+    top: 18em;
+    left: 25em;
   }
 
   .banner {
@@ -38,7 +74,7 @@
 @media only screen and (min-width: 60em) {
 
   .picture {
-    width: 60%;
+    width: 50%;
   }
 
   .subscribe {
@@ -46,8 +82,14 @@
 }
 
   .banner-type {
-    padding-top: 5em;
-    max-width: 70%;
+    padding-top: 3em;
+    max-width: 50%;
+    left: 33em;
+  }
+
+  .hiding {
+    position: absolute;
+    top: 1.5em;
   }
 
   .top-ban {
@@ -62,6 +104,8 @@
 
 @media only screen and (min-width: 90em) {
 
-
+  .kale {
+    margin-left: 10em;
+  }
 
 }
