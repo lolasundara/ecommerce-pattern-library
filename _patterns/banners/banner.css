@@ -9,3 +9,59 @@
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  .picture {
+    width: 50%;
+    margin-left: 1em;
+  }
+
+  .snacks {
+    position: absolute;
+  }
+
+  .banner-type {
+    text-align: left;
+    font-size: 70%;
+    max-width: 80%;
+    padding-top: 3.5em;
+  }
+
+  .banner {
+    position: relative;
+    background-color: var(--color-secondary);
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .picture {
+    width: 60%;
+  }
+
+  .subscribe {
+    background-color: transparent;
+}
+
+  .banner-type {
+    padding-top: 5em;
+    max-width: 70%;
+  }
+
+  .top-ban {
+    background-color: var(--color-secondary);
+  }
+
+  form {
+    background-color: var(--color-secondary);
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}

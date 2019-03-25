@@ -1,0 +1,15 @@
+.subscribe {
+  background-color: var(--color-secondary);
+}
+
+.foot-sections {
+  width: 30%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .foot-sections {
+    width: 22%;
+  }
+
+}

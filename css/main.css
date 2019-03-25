@@ -6,3 +6,35 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.logo {
+  width: 60%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .icons {
+    width: 32.5%;
+  }
+
+  .card-flex {
+    width: 49.5%;
+  }
+
+  .max-length {
+    max-width: 25em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card-flex {
+    width: 24.5%;
+  }
+
+  .max-length {
+    max-width: 35em;
+  }
+
+}

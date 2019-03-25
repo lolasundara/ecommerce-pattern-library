@@ -31,9 +31,9 @@
 }
 
 .btn-light:hover {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-  color: var(--color-dark)
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+  color: #fff;
 }
 
 .orange {
@@ -47,9 +47,9 @@
 }
 
 .btn-add-to:hover {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-  color: var(--color-dark)
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+  color: #fff;
 }
 
 .yellow {

@@ -4,10 +4,47 @@
   margin-left: 3.5em;
 }
 
+.max-height {
+  max-height: 30em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .pic {
+    margin-left: 2.75em;
+  }
+
+  .card-flex {
+    width: 49.5%;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .pic {
-    margin-left: 8em;
+    width: 60%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pic {
+    width: 70%;
+  }
+
+    .picture {
+      margin-left: 2em;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pic {
+    width: 60%;
+    margin-left: 2em;
   }
 
 }

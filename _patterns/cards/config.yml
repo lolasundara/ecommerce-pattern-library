@@ -1,0 +1,19 @@
+title: "Cards"
+description: |
+  Each card is layed out the same, although it includes different products and descriptions tailored to each specific item itself.
+
+patterns:
+  display-card:
+    title: "display-card"
+    description: |
+      this is cool stuff
+    fields:
+      - name: title
+        type: string
+        example: "Coffee"
+      - name: details
+        type: string
+        example: "Fresh grounded mix for your morning cup."
+      - name: image
+        type: image
+        example: "coffee.png"
