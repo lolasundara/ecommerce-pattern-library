@@ -61,3 +61,13 @@
   border-color: var(--color-dark);
   color: #ffffff;
 }
+
+.btn-continue-as {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-dark);
+}
+
+.blue {
+  box-shadow: 7px 7px 0px var(--color-secondary-cold);
+}
