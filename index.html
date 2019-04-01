@@ -9,16 +9,20 @@ layout: default
 <div class="light-back">
 
 <!--1-->
-{% pattern cards/display-card title="Coffee" details="Fresh grounded mix for your morning cup." image="coffee.png" data=Product %}
+{% assign product=site.products[0] %}
+{% pattern cards/display-card data=product %}
 
 <!--2-->
-{% pattern cards/display-card title="Himalayan Salt" details="Organic Salt To Add Flavour In Any Dish." image="salt.png" data=Product %}
+{% assign product=site.products[1] %}
+{% pattern cards/display-card data=product %}
 
 <!--3-->
-{% pattern cards/display-card title="Vegan Lipstick" details="Crazy Lipstick With An Even Crazier Vibe." image="lipstick.png" data=Product %}
+{% assign product=site.products[2] %}
+{% pattern cards/display-card data=product %}
 
 <!--4-->
-{% pattern cards/display-card title="Himalayan Salt" details="Organic Salt To Add Flavour In Any Dish." image="salt.png" data=Product %}
+{% assign product=site.products[3] %}
+{% pattern cards/display-card data=product %}
 
 </div>
 
