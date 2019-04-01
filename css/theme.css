@@ -183,3 +183,7 @@ a {
 .blue-back {
   background-color: var(--color-secondary-cold);
 }
+
+.yellow-type {
+  color: var(--color-secondary);
+}

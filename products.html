@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% pattern banners/prod-banner %}
+
+<div class="gutter-1-2">
+  {% for product in site.products %}
+      {% pattern cards/display-card data=product %}
+  {% endfor %}
+</div>
