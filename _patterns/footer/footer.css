@@ -13,3 +13,11 @@
   }
 
 }
+
+@media only screen and (min-width: 25em) {
+
+  .box {
+    visibility: visible;
+  }
+
+}
