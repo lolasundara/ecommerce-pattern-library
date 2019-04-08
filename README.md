@@ -29,3 +29,6 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ---
 
+Home Page
+The Homepage features a banner which includes 2 combined images and a brief description notifying the consumers of a new restock for snacks. There is also a call to action in order to draw the potential prospects to 'shop' the snacks. Beneath the banner, there is a short display of cards, presenting the user with new products which they can directly add to their 'bag' if they wish. As you scroll down there is an icons section notifying the consumer of cool features The Nest offers such as free shipping (on orders over $40), Gift wrapping, and Free samples! Who doesn't love free samples, am I right?
+
