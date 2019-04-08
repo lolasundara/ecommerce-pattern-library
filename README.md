@@ -37,3 +37,7 @@ The Products page also has a banner, featuring a big image of a product along wi
 
 Product Details
 The products details page is separated in two sections. The left side showing an image of the product itself, and the right side displaying the product name, the description, and the category of which the product relates to. It also shows the price, and the quantity in which the user wants to purchase.
+
+Checkout
+
+The checkout section has multiple field components allowing the user to input their information, which hypothetically would be used for shipping and delivery purposes. It also features a card which summarizes the order. Ideally, the page will be split in two sections again, separating the information to be more organized.
