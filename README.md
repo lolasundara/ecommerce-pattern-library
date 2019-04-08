@@ -35,3 +35,5 @@ The Homepage features a banner which includes 2 combined images and a brief desc
 Products Page
 The Products page also has a banner, featuring a big image of a product along with a description of the page's overall purpose. The rest of the page shows all products in a card format. It spans, individually on smaller screens and gradually doubles as you increase the screen. At the bottom of the products page these is a footer (also feature throughout the whole website on each page). It allows users to input their email to sign up for fake subscriptions and emails for promotions. It also shows customer service links, information about the company and the social media icons.
 
+Product Details
+The products details page is separated in two sections. The left side showing an image of the product itself, and the right side displaying the product name, the description, and the category of which the product relates to. It also shows the price, and the quantity in which the user wants to purchase.
