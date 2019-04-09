@@ -29,6 +29,12 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ---
 
+Privacy Policy Page
+The privacy policy page is the surprise page, the content is provided for us. The design features will include some shape layers of different colors suited to the brand palette in order to give emphasis and aesthetic appeal to the content. It will have sections and different hover effects to add movement to the landscape.
+
+About Page
+The about page is where the website explains and gives the user an insight on what the company's goals are, the company's purpose and story. This page will highlight the overall identity that The Nest carries. It includes brief blurbs about each section, and has a photo of startup and it's behind the screen staff. It also has a staff feature, giving cool little backgrounds about each person.
+
 Home Page
 The Homepage features a banner which includes 2 combined images and a brief description notifying the consumers of a new restock for snacks. There is also a call to action in order to draw the potential prospects to 'shop' the snacks. Beneath the banner, there is a short display of cards, presenting the user with new products which they can directly add to their 'bag' if they wish. As you scroll down there is an icons section notifying the consumer of cool features The Nest offers such as free shipping (on orders over $40), Gift wrapping, and Free samples! Who doesn't love free samples, am I right?
 
