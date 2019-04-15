@@ -186,3 +186,7 @@ a {
 .yellow-type {
   color: var(--color-secondary);
 }
+
+.checkout-back {
+  background-color: var(--color-primary-light);
+}
