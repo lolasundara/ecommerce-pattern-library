@@ -202,3 +202,15 @@ a {
 .effective-date {
   color: var(--color-primary);
 }
+
+.green-type {
+  color: var(--color-primary);
+}
+
+td {
+  color: var(--color-secondary-cold);
+}
+
+th {
+  color: var(--color-whatever);
+}
