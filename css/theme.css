@@ -23,9 +23,17 @@ h1 {
   color: var(--color-primary);
 }
 
-h2, h3, h4, h5, h6, label, legend {
+h2, h5, h6, label, legend {
   font-family: var(--font-primary);
   color: var(--color-dark);
+}
+
+h3 {
+  color: var(--color-whatever);
+}
+
+h4 {
+  color: var(--color-secondary-cold);
 }
 
 p {
@@ -189,4 +197,8 @@ a {
 
 .checkout-back {
   background-color: var(--color-primary-light);
+}
+
+.effective-date {
+  color: var(--color-primary);
 }
