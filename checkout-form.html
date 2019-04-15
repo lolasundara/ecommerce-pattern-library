@@ -1,13 +1,18 @@
 ---
 layout: default
 ---
-<h2>Customer</h2>
-{% pattern forms/email-form %}
-{% pattern buttons/add-to %}
+<div class="grid checkout-back">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+    <h2 class="gutter pad-t-2 orange-type">Customer</h2>
+    <div class="gutter">{% pattern forms/name-form %}</div>
+    <div class="gutter">{% pattern forms/email-form %}</div>
+    <div class="gutter push">{% pattern buttons/guest %}</div>
+  </div>
 
-<h2>Shipping</h2>
-{% pattern forms/name-form %}
-{% pattern forms/address-form %}
-{% pattern forms/gift-option-form %}
-{% pattern forms/checkbox-form %}
-{% pattern forms/payment-form %}
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-2">
+    <h2 class="gutter pad-t-2 orange-type">Shipping</h2>
+    <div class="gutter">{% pattern forms/address-form %}</div>
+    <div class="gutter">{% pattern forms/gift-option-form %}</div>
+    <div class="gutter pad-t-1-2">{% pattern forms/checkbox-form %}</div>
+    <div class="gutter">{% pattern forms/payment-form %}</div>
+  </div>
