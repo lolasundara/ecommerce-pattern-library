@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="island checkout-back">
+  <h2 class="orange-back island white-type text-center">NEW PROMO: OUR SNAAACKS ARE IN!</h2>
+
+  <div class="gutter-2">
+    {% pattern banners/home-banner %}
+  </div>
+
+  <div class="gutter pad-t push">
+    {% pattern cards/display-card data=product %}
+    {% pattern cards/display-card data=product %}
+    {% pattern cards/display-card data=product %}
+    {% pattern cards/display-card data=product %}
+  </div>
+
+  <table class="push-0 gutter-2 green-type push-2 checkout-back">
+    <caption class="mega yellow-type text-center">PROMOS</caption>
+    <thead>
+      <tr>
+        <th class="name" scope="col">Quantity</th>
+        <th class="star" scope="col">Price/Each</th>
+        <th class="year" scope="col">Discount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="not-bold italic" scope="row">1-10</th>
+        <td>$5.99</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <th class="not-bold italic" scope="row">11-49</th>
+        <td>$5.49</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <th class="not-bold italic" scope="row">50-100</th>
+        <td>$4.99</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <th class="not-bold italic" scope="row">100-500</th>
+        <td>$4.25</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <th class="not-bold italic" scope="row">500+</th>
+        <td>$3.99</td>
+        <td>25%</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

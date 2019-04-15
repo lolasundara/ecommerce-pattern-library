@@ -8,6 +8,7 @@
   --color-whatever: #467495;
   --color-neutral: #ddab86;
   --color-neutral-light: #f5edd9;
+  --color-pink: #fcbac4;
 
   --font-primary: "Oswald", sans-serif;
   --font-secondary: "Oswald", sans-serif;
@@ -187,6 +188,10 @@ a {
   color: #fff;
 }
 
+.orange-back {
+  background-color: var(--color-accent);
+}
+
 .blue-back {
   background-color: var(--color-secondary-cold);
 }
@@ -197,6 +202,14 @@ a {
 
 .checkout-back {
   background-color: var(--color-primary-light);
+}
+
+.pink-back {
+  background-color: var(--color-pink);
+}
+
+.dark-blue-back {
+  background-color: var(--color-dark);
 }
 
 .effective-date {
