@@ -184,6 +184,10 @@ a {
   color: var(--color-accent);
 }
 
+.pink-type {
+  color: var(--color-pink);
+}
+
 .white-type {
   color: #fff;
 }

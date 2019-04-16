@@ -10,9 +10,9 @@ layout: default
   </div>
 
   <div class="gutter pad-t push">
+    {% assign product=site.products[7] %}
     {% pattern cards/display-card data=product %}
-    {% pattern cards/display-card data=product %}
-    {% pattern cards/display-card data=product %}
+    {% assign product=site.products[3] %}
     {% pattern cards/display-card data=product %}
   </div>
 
@@ -53,5 +53,6 @@ layout: default
       </tr>
     </tbody>
   </table>
+
 
 </div>
